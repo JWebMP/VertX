@@ -1,8 +1,8 @@
 package com.jwebmp.vertx.implementations;
 
-import com.guicedee.guicedservlets.servlets.services.scopes.CallScope;
-import com.guicedee.client.CallScopeProperties;
-import com.guicedee.guicedservlets.websockets.options.IGuicedWebSocket;
+import com.guicedee.client.scopes.CallScope;
+import com.guicedee.client.scopes.CallScopeProperties;
+import com.guicedee.client.services.websocket.IGuicedWebSocket;
 import io.vertx.core.Vertx;
 import com.google.inject.Inject;
 

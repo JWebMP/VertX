@@ -1,7 +1,7 @@
 package com.jwebmp.vertx;
 
-import com.guicedee.guicedservlets.websockets.options.WebSocketMessageReceiver;
-import com.guicedee.guicedservlets.websockets.services.IWebSocketMessageReceiver;
+import com.guicedee.client.services.websocket.WebSocketMessageReceiver;
+import com.guicedee.client.services.websocket.IWebSocketMessageReceiver;
 import io.smallrye.mutiny.Uni;
 
 import java.util.Set;

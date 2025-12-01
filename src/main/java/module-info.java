@@ -1,4 +1,4 @@
-import com.guicedee.guicedinjection.interfaces.IGuiceModule;
+import com.guicedee.client.services.lifecycle.IGuiceModule;
 import com.guicedee.vertx.web.spi.VertxHttpServerConfigurator;
 import com.jwebmp.vertx.JWebMPVertx;
 import com.jwebmp.vertx.implementations.JWebMPVertxBinder;

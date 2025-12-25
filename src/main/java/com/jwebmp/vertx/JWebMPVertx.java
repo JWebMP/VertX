@@ -170,7 +170,7 @@ public class JWebMPVertx extends AbstractModule implements IGuiceModule<JWebMPVe
                                     response.putHeader(CONTENT_TYPE, HTML_HEADER_JSON);
                                     response.write(responseString.toString(), StandardCharsets.UTF_8.toString());
                                     return null;
-                            }, CallScopeSource.Http));
+                            }, CallScopeSource.Http), false);
                     });
                 }
 		
@@ -188,7 +188,7 @@ public class JWebMPVertx extends AbstractModule implements IGuiceModule<JWebMPVe
                                     response.putHeader(CONTENT_TYPE, HTML_HEADER_CSS);
                                     response.write(css.toString(), StandardCharsets.UTF_8.toString());
                                     return null;
-                            }, CallScopeSource.Http));
+                            }, CallScopeSource.Http), false);
                     });
                 }
 		
@@ -379,7 +379,7 @@ public class JWebMPVertx extends AbstractModule implements IGuiceModule<JWebMPVe
                                                         .write(pageHtml, StandardCharsets.UTF_8.toString());
 
                                                     return null;
-                                            }, CallScopeSource.Http));
+                                            }, CallScopeSource.Http), false);
                                     });
                         }
                 }
@@ -476,7 +476,7 @@ public class JWebMPVertx extends AbstractModule implements IGuiceModule<JWebMPVe
                                         .response()
                                         .write(output.toString(), StandardCharsets.UTF_8.toString());
                                     return null;
-                            }, CallScopeSource.Http));
+                            }, CallScopeSource.Http), false);
                     });
                 }
 		

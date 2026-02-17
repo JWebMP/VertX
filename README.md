@@ -11,6 +11,7 @@ Vert.x 5 bridge for JWebMP using GuicedEE modules (`com.jwebmp.vertx`).
 - Architecture diagrams: `docs/architecture/README.md`
 - Prompt reference: `docs/PROMPT_REFERENCE.md`
 - Rules Repository submodule: `rules/README.md`
+- GuicedEE Vert.x processing model (consumers & publishers): `../../GuicedEE/vertx/README.md`
 
 ## Build
 - Java 25 LTS, Maven (inherits `com.jwebmp:parent:2.0.0-SNAPSHOT`).

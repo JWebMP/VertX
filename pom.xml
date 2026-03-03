@@ -21,22 +21,17 @@
         </dependency>
 
         <dependency>
-            <groupId>com.guicedee.services</groupId>
+            <groupId>com.guicedee.modules.representations</groupId>
             <artifactId>json-representation</artifactId>
         </dependency>
 
-        <!--       <dependency>
-                   <groupId>com.guicedee</groupId>
-                   <artifactId>guiced-vertx-sockets</artifactId>
-               </dependency>-->
-
         <dependency>
-            <groupId>com.guicedee.services</groupId>
+            <groupId>com.guicedee.modules.services</groupId>
             <artifactId>uadetector-core</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>com.guicedee.services</groupId>
+            <groupId>com.guicedee.modules.services</groupId>
             <artifactId>uadetector-resources</artifactId>
         </dependency>
 
@@ -51,11 +46,11 @@
         </dependency>
         <dependency>
             <groupId>com.guicedee</groupId>
-            <artifactId>guiced-vertx-web</artifactId>
+            <artifactId>web</artifactId>
         </dependency>
         <dependency>
             <groupId>com.guicedee</groupId>
-            <artifactId>guice-injection</artifactId>
+            <artifactId>inject</artifactId>
         </dependency>
 
         <dependency>

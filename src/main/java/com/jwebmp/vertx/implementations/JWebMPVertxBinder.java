@@ -8,7 +8,7 @@ import com.google.inject.AbstractModule;
 import com.guicedee.client.services.lifecycle.IGuiceModule;
 import com.guicedee.client.scopes.CallScope;
 import com.guicedee.client.services.websocket.IGuicedWebSocket;
-import com.guicedee.services.jsonrepresentation.IJsonRepresentation;
+import com.guicedee.modules.services.jsonrepresentation.IJsonRepresentation;
 import io.vertx.core.json.jackson.DatabindCodec;
 import net.sf.uadetector.ReadableUserAgent;
 

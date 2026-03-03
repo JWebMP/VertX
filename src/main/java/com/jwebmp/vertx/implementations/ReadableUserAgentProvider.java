@@ -14,7 +14,7 @@ import com.jwebmp.core.base.ajax.HeadersDTO;
 import io.vertx.core.http.HttpServerRequest;
 import net.sf.uadetector.*;
 
-import static com.guicedee.services.jsonrepresentation.json.StaticStrings.STRING_EMPTY;
+import static com.guicedee.modules.services.jsonrepresentation.json.StaticStrings.STRING_EMPTY;
 
 @CallScope
 public class ReadableUserAgentProvider implements Provider<ReadableUserAgent>

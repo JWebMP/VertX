@@ -54,7 +54,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.jwebmp.core</groupId>
+            <groupId>com.jwebmp</groupId>
             <artifactId>jwebmp-core</artifactId>
         </dependency>
 

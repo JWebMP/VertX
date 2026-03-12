@@ -1,6 +1,6 @@
 # JWebMP Vert.X
 
-[![Build](https://github.com/JWebMP/VertX/actions/workflows/maven-package.yml/badge.svg)](https://github.com/JWebMP/VertX/actions/workflows/maven-package.yml)
+[![Build](https://github.com/JWebMP/VertX/actions/workflows/maven-publish.yml/badge.svg)](https://github.com/JWebMP/VertX/actions/workflows/maven-package.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.jwebmp/jwebmp-vertx)](https://central.sonatype.com/artifact/com.jwebmp/jwebmp-vertx)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 

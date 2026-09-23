@@ -16,42 +16,14 @@
     <description>A portable connector for JWebMP and Vert.x</description>
 
     <dependencies>
-        <dependency>
-            <groupId>com.jwebmp</groupId>
-            <artifactId>jwebmp-client</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.guicedee.modules.representations</groupId>
-            <artifactId>json-representation</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.guicedee.modules.services</groupId>
-            <artifactId>uadetector-core</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.guicedee.modules.services</groupId>
-            <artifactId>uadetector-resources</artifactId>
-        </dependency>
 
 
-        <dependency>
-            <groupId>io.vertx</groupId>
-            <artifactId>vertx-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.vertx</groupId>
-            <artifactId>vertx-web</artifactId>
-        </dependency>
+
+
+
         <dependency>
             <groupId>com.guicedee</groupId>
             <artifactId>web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.guicedee</groupId>
-            <artifactId>inject</artifactId>
         </dependency>
 
         <dependency>

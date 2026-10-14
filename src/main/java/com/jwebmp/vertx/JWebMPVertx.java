@@ -1,5 +1,7 @@
 package com.jwebmp.vertx;
 
+import com.guicedee.client.utils.ClassLoading;
+
 import com.google.common.base.Strings;
 import com.google.inject.*;
 import com.google.inject.name.Names;
@@ -103,7 +105,7 @@ public class JWebMPVertx extends AbstractModule implements IGuiceModule<JWebMPVe
                 }
 
                 @SuppressWarnings("unchecked")
-                Class<IPage<?>> pageClass = (Class<IPage<?>>) classInfo.loadClass();
+                Class<IPage<?>> pageClass = (Class<IPage<?>>) ClassLoading.loadClass(classInfo);
                 PageConfiguration pc = pageClass.getAnnotation(PageConfiguration.class);
                 String url = pc.url();
                 if (Strings.isNullOrEmpty(url)) {
@@ -316,7 +318,7 @@ public class JWebMPVertx extends AbstractModule implements IGuiceModule<JWebMPVe
                 }
 
                 @SuppressWarnings("unchecked")
-                Class<IPage<?>> pageClass = (Class<IPage<?>>) classInfo.loadClass();
+                Class<IPage<?>> pageClass = (Class<IPage<?>>) ClassLoading.loadClass(classInfo);
                 PageConfiguration pc = pageClass.getAnnotation(PageConfiguration.class);
                 String url = pc.url();
                 if (Strings.isNullOrEmpty(url)) {
